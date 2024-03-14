@@ -48,8 +48,8 @@
                         href="https://pixabay.com/de/photos/ahornboden-eng-natur-landschaft-3677846/">pixabay)</a>
                 </figcaption>
             </figure>
-            <h3>Karte</h3>
-
+            <h3>Übersichtskarte</h3>
+            <div id="map" style="width: 90%; height: 600px;"></div>
 
 
             <h3>Links</h3>
@@ -70,6 +70,9 @@
             </nav>
         </footer>
     </main>
+    <script>
+        var map = L.map('map').setView([47.426944444444, 11.4216666666671771], 13);
+    </script>
 </body>
 
 </html>
