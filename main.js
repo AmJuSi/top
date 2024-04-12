@@ -17,3 +17,9 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // var marker = L.marker([lat, lng]).addTo(map);
 // marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+
+//Maßstab
+L.control.scale({
+    imperial: false,
+    maxWidth: 100
+}).addTo(map);
