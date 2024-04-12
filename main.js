@@ -2,7 +2,7 @@ let lat = 47.426944444444;
 let lng = 11.4216666666671771;
 let zoom = 13;
 
-// var map = L.map('map').setView([lat, lng], zoom);
+// var map = L.map('map').setView([lat, lng], zoom); (wird durch zeilen unten ersetzt)
 
 var map = L.map('map', {
     center: [lat, lng], // [] Array o. Liste, einträge mit komma getrennt
